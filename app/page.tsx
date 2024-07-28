@@ -66,7 +66,7 @@ export default function Home() {
 
   return (
     <DarkModeProvider>
-      <main className="min-h-screen bg-[#F6F8FF] dark:bg-[#141D2F] px-6 py-7">
+      <main className="min-h-screen bg-[#F6F8FF] px-6 py-7 dark:bg-[#141D2F] md:px-80 md:py-32">
         <Header />
         <SearchBar
           search={handleUserSearch}

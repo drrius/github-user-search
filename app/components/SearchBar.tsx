@@ -48,7 +48,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
       )}
       <button
         onClick={() => search(searchInput)}
-        className="rounded-lgfont-mono flex items-center justify-center bg-[#0079FF] px-4 py-3 text-[14px] font-bold text-white hover:bg-[#60ABFF]"
+        className="flex items-center justify-center rounded-lg bg-[#0079FF] px-5 py-3 font-mono text-[14px] font-bold text-white hover:bg-[#60ABFF]"
       >
         Search
       </button>
